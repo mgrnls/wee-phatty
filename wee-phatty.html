@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <h1>Wee Phatty</h1>
+    <p id="desc">To play, use the A, W, S, E, D, F, T, G, Y, H,, U, J and K keys to play, and use the up and down keys to increase or decrease the octave. This only seems to work on Firefox and Chrome. Press the button below to begin.</p>
+    <p><button id="start">Start!</button></p>
+    <div id="left">
+    <h2>Mix</h2>
+    <p><input type="range" min="0" max="1" value="0.5" step="0.05" class="slider" id="oscvols"></p>
+    <br>
+    <h2>Oscillator 1</h2>
+    <h3>Waveform</h3>
+    <p><button id="sinea">sine</button>
+    <button id="sawtootha">sawtooth</button>
+    <button id="squarea">square</button>
+    <button id="trianglea">triangle</button><p>
+    <h3>Detune</h3>
+    <p><input type="range" min="-50" max="50" value="0" step="5" class="slider" id="detune1"></p>
+    <br>
+    <h2>Oscillator 2</h2>
+    <h3>Waveform</h3>
+    <p><button id="sineb">sine</button>
+    <button id="sawtoothb">sawtooth</button>
+    <button id="squareb">square</button>
+    <button id="triangleb">triangle</button></p>
+    <h3>Detune</h3>
+    <p><input type="range" min="-50" max="50" value="0" step="5" class="slider" id="detune2"></p>
+    </div>
+    <br>
+    <div id="right">
+    <h2>ADSR</h2>
+    <h3>Attack</h3>
+    <p><input type="range" min="0.05" max="1" value="0.5" step="0.1" class="slider" id="attack"></p>
+    <h3>Decay</h3>
+    <p><input type="range" min="0.05" max="1" value="0.5" step="0.1" class="slider" id="decay"></p>
+    <h3>Sustain</h3>
+    <p><input type="range" min="0.1" max="1" value="0.5" step="0.1" class="slider" id="sustain"></p>
+    <h3>Release</h3>
+    <p><input type="range" min="0.1" max="1" value="0.5" step="0.1" class="slider" id="release"></p>
+    <br>
+    <h2>Band Pass</h2>
+    <h3>Q</h3>
+    <p><input type="range" min="0.0001" max="5" value="1" step="0.1" class="slider" id="filterQ"></p>
+    <h3>Frequency</h3>
+    <p><input type="range" min="200" max="6000" value="0.5" step="0.1" class="slider" id="filterFreq"></p>
+    </div>
+
+
+
+    <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
