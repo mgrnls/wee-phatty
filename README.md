@@ -1,2 +1,2 @@
-# wee phatty
-A polyphonic subtractive synthesiser made with web audio. Still being worked on...
+# Wee Phatty
+A polyphonic subtractive synthesiser made with JavaScript.
